@@ -1,0 +1,95 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+
+
+.heroBanner {
+  color: #000000;
+  padding: 0;
+  text-align: left;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url('/static/img/AD_Save-the-Date.png') ;
+  background-size: cover;
+  background-position: center;
+}
+
+.textHero{
+  font-size: 2.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin-bottom: 0;
+}
+
+.textHero1{
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  margin-bottom: 0;
+}
+.buttons {
+  display: block;
+  margin-top: 95vh; 
+}
+.textContainer {
+  align-items: center;
+  justify-content: center;
+}
+.main-content {
+  margin-top: 0; 
+  padding-top: 0; 
+}
+.heroContainer{
+  justify-content: center;
+  align-items: self-end;
+}
+.btnCalendar{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .textHero{
+    font-size: 1.6rem;
+    font-weight: 530;
+  }
+  .textHero1{
+    font-size: 1rem;
+    font-weight: 220;
+  }
+  .buttons{
+    margin-top: 80vh;
+    margin-bottom: 10vh;
+  }
+}
+@media (max-width: 425px){
+  .textHero{
+    font-size: 1.7rem;
+    font-weight: 595;
+  }
+  .textHero1{
+    font-size: 1.5rem;
+    font-weight: 350;
+  }
+  .buttons{
+    margin-top: 85vh;
+    margin-bottom: 5vh;
+  }
+
+}
